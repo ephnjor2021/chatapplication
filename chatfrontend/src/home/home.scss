@@ -1,0 +1,34 @@
+.homepage {
+  width: 500px;
+  height: 500px;
+  padding: 2rem;
+  background-color: #2d343e;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 5px;
+  input {
+    height: 50px;
+    width: 80%;
+    background-color: #404450;
+    border: none;
+    padding-left: 1rem;
+    border-radius: 5px;
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: 100px;
+    border: none;
+    background-color: #ffac41;
+    border-radius: 5px;
+
+    color: black;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
