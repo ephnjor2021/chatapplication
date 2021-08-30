@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemod server"
+    "dev": "nodemon server"
   },
   "author": "Ephraim",
   "license": "MIT",
